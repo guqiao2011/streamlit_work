@@ -2,6 +2,7 @@ import streamlit as st
 
 import requests
 
+
 url = "http://www.baidu.com"
 resp = requests.get(url)
 resp.encoding = 'utf8'
